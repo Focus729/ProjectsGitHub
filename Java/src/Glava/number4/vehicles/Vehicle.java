@@ -5,6 +5,12 @@ public class Vehicle {
     int fuelcap;
     int mpg;
 
+    Vehicle(int p, int f, int m) {
+        passengers = p;
+        fuelcap = f;
+        mpg = m;
+    }
+
     //методы
     int range() {
         return mpg * fuelcap;
